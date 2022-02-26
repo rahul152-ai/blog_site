@@ -1,0 +1,11 @@
+#visual studion code
+.vscode/**
+
+#desktop service store files
+.DS_Store
+
+#Temp directories
+node_modules
+
+#Rush files
+package-lock.json
