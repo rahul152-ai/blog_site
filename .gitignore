@@ -9,3 +9,5 @@ node_modules
 
 #Rush files
 package-lock.json
+
+.env
