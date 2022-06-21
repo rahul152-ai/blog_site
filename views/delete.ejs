@@ -1,0 +1,13 @@
+<%- include('partials/header'); -%>
+<%if(successalert !='') { %>
+    <div class="alert alert-success" role="alert">
+        <%=successalert %>
+    </div>
+<% } %>
+    <h1>DELETE BLOG</h1>
+    <form action="/delete" method="post" id="form">
+        <input type="text" name="delete_heading"class="form-control" placeholder="Enter The Title">
+        <br>
+        <button type="submit" class="btn btn-primary">Delete</button>
+    </form>
+    <%- include('partials/footer'); -%>
